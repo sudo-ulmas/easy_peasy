@@ -1,0 +1,343 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyIDNative"
+      },
+      {
+        "kind": "Import",
+        "name": "MyIdSDK",
+        "printedName": "MyIdSDK",
+        "declKind": "Import",
+        "moduleName": "MyIDNative"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Printer",
+        "printedName": "Printer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "clientId",
+            "printedName": "clientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MyIDNative7PrinterC8clientId33_3CE857D8966D20B3582FB7C2BD3884B7LLSSvp",
+            "mangledName": "$s10MyIDNative7PrinterC8clientId33_3CE857D8966D20B3582FB7C2BD3884B7LLSSvp",
+            "moduleName": "MyIDNative",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "clientHash",
+            "printedName": "clientHash",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MyIDNative7PrinterC10clientHash33_3CE857D8966D20B3582FB7C2BD3884B7LLSSvp",
+            "mangledName": "$s10MyIDNative7PrinterC10clientHash33_3CE857D8966D20B3582FB7C2BD3884B7LLSSvp",
+            "moduleName": "MyIDNative",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "clientHashId",
+            "printedName": "clientHashId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MyIDNative7PrinterC12clientHashId33_3CE857D8966D20B3582FB7C2BD3884B7LLSSvp",
+            "mangledName": "$s10MyIDNative7PrinterC12clientHashId33_3CE857D8966D20B3582FB7C2BD3884B7LLSSvp",
+            "moduleName": "MyIDNative",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Printer",
+                "printedName": "MyIDNative.Printer",
+                "usr": "s:10MyIDNative7PrinterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MyIDNative7PrinterC4nameACSS_tcfc",
+            "mangledName": "$s10MyIDNative7PrinterC4nameACSS_tcfc",
+            "moduleName": "MyIDNative",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "startMyId",
+            "printedName": "startMyId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MyIDNative7PrinterC05startA2IdyyF",
+            "mangledName": "$s10MyIDNative7PrinterC05startA2IdyyF",
+            "moduleName": "MyIDNative",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSuccess",
+            "printedName": "onSuccess(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyIdResult",
+                "printedName": "MyIdSDK.MyIdResult",
+                "usr": "c:@M@MyIdSDK@objc(cs)MyIdResult"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MyIDNative7PrinterC9onSuccess6resulty0A5IdSDK0aG6ResultC_tF",
+            "mangledName": "$s10MyIDNative7PrinterC9onSuccess6resulty0A5IdSDK0aG6ResultC_tF",
+            "moduleName": "MyIDNative",
+            "isOpen": true,
+            "objc_name": "onSuccessWithResult:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(exception:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyIdException",
+                "printedName": "MyIdSDK.MyIdException",
+                "usr": "c:@M@MyIdSDK@objc(cs)MyIdException"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MyIDNative7PrinterC7onError9exceptiony0A5IdSDK0aG9ExceptionC_tF",
+            "mangledName": "$s10MyIDNative7PrinterC7onError9exceptiony0A5IdSDK0aG9ExceptionC_tF",
+            "moduleName": "MyIDNative",
+            "isOpen": true,
+            "objc_name": "onErrorWithException:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onUserExited",
+            "printedName": "onUserExited()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MyIDNative7PrinterC12onUserExitedyyF",
+            "mangledName": "$s10MyIDNative7PrinterC12onUserExitedyyF",
+            "moduleName": "MyIDNative",
+            "isOpen": true,
+            "objc_name": "onUserExited",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10MyIDNative7PrinterC",
+        "mangledName": "$s10MyIDNative7PrinterC",
+        "moduleName": "MyIDNative",
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MyIdClientDelegate",
+            "printedName": "MyIdClientDelegate",
+            "usr": "c:@M@MyIdSDK@objc(pl)MyIdClientDelegate",
+            "mangledName": "$s7MyIdSDK0aB14ClientDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyIDNative",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Hello",
+        "printedName": "Hello",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Hello",
+                "printedName": "MyIDNative.Hello",
+                "usr": "s:10MyIDNative5HelloC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MyIDNative5HelloCACycfc",
+            "mangledName": "$s10MyIDNative5HelloCACycfc",
+            "moduleName": "MyIDNative",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "startMyIdjon",
+            "printedName": "startMyIdjon()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MyIDNative5HelloC05startA5IdjonyyFZ",
+            "mangledName": "$s10MyIDNative5HelloC05startA5IdjonyyFZ",
+            "moduleName": "MyIDNative",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10MyIDNative5HelloC",
+        "mangledName": "$s10MyIDNative5HelloC",
+        "moduleName": "MyIDNative",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/abdullah\/MyIDNative\/MyIDNative\/Printer.swift",
+      "kind": "StringLiteral",
+      "offset": 88,
+      "length": 53,
+      "value": "\"yagona_sdk-zL0y2qa4EsMiLRhjRd3iPcraiT78ojMIjGIvOprk\""
+    },
+    {
+      "filePath": "\/Users\/abdullah\/MyIDNative\/MyIDNative\/Printer.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 385,
+      "value": "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAstzi2XRq3reo0vtSGp5OHFbSdTcVYh9gl3PUVFVFpLFrNTiCqo46iAxnLd0+edT8e+mD6YlwRTv9rMAE2wRUgG\/k9K2WKlKRGbvSqvJrPVR7kj06t4D848o7UqrZVssvl65Y+sGKXNi2hiSr7ihwkpSdN21AzZEC3O6u+65g4f7sIB51Mg33WrcdwnEWKa7uOuIA+WA32OGroL7hwi7ygONA9hh8icy\/R2IPAWH5f++gHIWjZAdXiwxCdcKEOWtv7FKl4asIg8jzNw0y\/nH+ShQo8kBHl38LKiqnXcvTqUimuigIvtE1PElWoUrIRv7C3R73CXs1V7yAwIDAQAB\""
+    },
+    {
+      "filePath": "\/Users\/abdullah\/MyIDNative\/MyIDNative\/Printer.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 38,
+      "value": "\"77b991d1-077b-4ebf-9a2c-33d7b9d309d5\""
+    }
+  ]
+}
