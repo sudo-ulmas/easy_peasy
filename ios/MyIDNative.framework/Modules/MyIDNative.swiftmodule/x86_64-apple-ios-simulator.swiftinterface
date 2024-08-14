@@ -8,8 +8,19 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public protocol HelloDelegate : AnyObject {
+  func onSuccess(code: Swift.String)
+  func onError(exception: Swift.String)
+  func onUserExited()
+}
 public class Hello {
+  weak public var delegate: (any MyIDNative.HelloDelegate)?
   public init()
-  public class func startMyIdjon()
+  public func startMyIdjon()
   @objc deinit
+}
+extension MyIDNative.Hello : MyIdSDK.MyIdClientDelegate {
+  @objc dynamic public func onSuccess(result: MyIdSDK.MyIdResult)
+  @objc dynamic public func onError(exception: MyIdSDK.MyIdException)
+  @objc dynamic public func onUserExited()
 }
