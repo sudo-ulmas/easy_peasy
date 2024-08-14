@@ -10,55 +10,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LaVdMS7/kJzlOmaNxUDrfzwSMY8=
+		XVTwyAK4OOC32f+IxlSCbsBT9H4=
 		</data>
-		<key>Modules/MyIDNative.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/MyIDNative.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		4ixtAOMvXeSaekDqlrsK5LDFaf8=
+		o7dxx1348a/uX88Pwth+30XUovA=
 		</data>
-		<key>Modules/MyIDNative.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		Q6D62IXqKRcA3J+LCabnaIW/7JU=
-		</data>
-		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
 		XFUGTOWMzZb1Agjy71n1S2g8tu4=
 		</data>
-		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		CxettsTHUzbFoMUwxINw28Nd0go=
+		Pa7MM7fiywLR+LH04LgsI5nMYAw=
 		</data>
-		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		oI5yce5FOfxomfcPtbSS4d/qBUM=
+		MJNyZ3068J/VUwZDlfShDE2MPFU=
 		</data>
-		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		CxettsTHUzbFoMUwxINw28Nd0go=
+		Pa7MM7fiywLR+LH04LgsI5nMYAw=
 		</data>
-		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/6PHQ3GkD54LMRDwYHmb4KzPAOg=
-		</data>
-		<key>Modules/MyIDNative.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		XFUGTOWMzZb1Agjy71n1S2g8tu4=
-		</data>
-		<key>Modules/MyIDNative.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		HMPxKhoRlzobTrKV/6GZVS2HkfE=
-		</data>
-		<key>Modules/MyIDNative.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		6CTAjOjur4I72O0cwWCTlLKbglw=
-		</data>
-		<key>Modules/MyIDNative.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		HMPxKhoRlzobTrKV/6GZVS2HkfE=
-		</data>
-		<key>Modules/MyIDNative.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		iTBZfnr9Jlt6RYZFiZOdvq8QYQo=
+		tpF05uOH3pPrUQHSoQ69UmGqf2Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,88 +50,46 @@
 			oMlgBp1hEOLe2ndV1O6hkvfG2pZUvFBI97nXHr7NwLg=
 			</data>
 		</dict>
-		<key>Modules/MyIDNative.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/MyIDNative.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uz96x1XdXgABb6RMbV0IEKPOK3Qr04J+Pn7KQ+mX7P8=
+			t6KSzKjFNbUW7wzrpOVx6CloLTaA0VeF4e3ybeYdGFk=
 			</data>
 		</dict>
-		<key>Modules/MyIDNative.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vXSW5XPU+QdtuW8+FGTIX1KILtubyHe0TlJRlzGRdw8=
-			</data>
-		</dict>
-		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			MpXtfoH6w6m0+Vy5gOqtvCo7RSOhfD4P4NEY7psXPPU=
 			</data>
 		</dict>
-		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WuNKe1SMCaGDlXcf+aaDkoe3tfCPXnigeF0t0gLjKic=
+			sGbwe7SM1MG4yOPjaoGt62qOZkDiO7fRrAlg91QOHpY=
 			</data>
 		</dict>
-		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s8AyY7xUJxH9paPsWsPyX7QlUjgzKvolGKrME7mlt+c=
+			j3wCcmdMUT+Oqg4dIRyYCqA3ue46YUf7oAvD7qU9arI=
 			</data>
 		</dict>
-		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WuNKe1SMCaGDlXcf+aaDkoe3tfCPXnigeF0t0gLjKic=
+			sGbwe7SM1MG4yOPjaoGt62qOZkDiO7fRrAlg91QOHpY=
 			</data>
 		</dict>
-		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/MyIDNative.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ul1LJ1i4doWv4GE3VKtAEQWp0hHCav7GB4S1eO93044=
-			</data>
-		</dict>
-		<key>Modules/MyIDNative.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MpXtfoH6w6m0+Vy5gOqtvCo7RSOhfD4P4NEY7psXPPU=
-			</data>
-		</dict>
-		<key>Modules/MyIDNative.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5yrPAN/3ykMya+2Cp3hBcHuhrXQwOyQY54KcyXJTaYo=
-			</data>
-		</dict>
-		<key>Modules/MyIDNative.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pjZJDphLuMQFBzACAB/62vn9KZVzpNLaItEg/+IlS1M=
-			</data>
-		</dict>
-		<key>Modules/MyIDNative.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5yrPAN/3ykMya+2Cp3hBcHuhrXQwOyQY54KcyXJTaYo=
-			</data>
-		</dict>
-		<key>Modules/MyIDNative.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			H6/7Iv7mq3qgEdFjlLdue7UEPYYW2zFMHItDRB+XFF8=
+			FjF0MIEE4LOyo9pgscjNTYuwO0dp0EosXHDK81ZY6H8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
