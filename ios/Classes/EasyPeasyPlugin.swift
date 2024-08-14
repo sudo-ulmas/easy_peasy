@@ -3,17 +3,25 @@ import UIKit
 import MyIDNative
 
 public class EasyPeasyPlugin: NSObject, FlutterPlugin, HelloDelegate {
+     var  flResult: FlutterResult?
     public func onSuccess(code: String) {
-        <#code#>
+        if let result = flResult {
+            result(code)
+        }
     }
     
     
     public func onError(exception: String) {
-        <#code#>
+        if let result = flResult {
+            result(exception)
+        }
     }
     
     public func onUserExited() {
-        <#code#>
+        
+        if let result = flResult {
+            result("usha gap")
+        }
     }
     
   public static func register(with registrar: FlutterPluginRegistrar) {
@@ -25,6 +33,7 @@ public class EasyPeasyPlugin: NSObject, FlutterPlugin, HelloDelegate {
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult)  {
     switch call.method  {
     case "getPlatformVersion":
+        flResult = result
         let hello = Hello()
         hello.delegate = self
         hello.startMyIdjon()
