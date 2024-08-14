@@ -6,6 +6,7 @@ public class EasyPeasyPlugin: NSObject, FlutterPlugin, HelloDelegate {
      var  flResult: FlutterResult?
     public func onSuccess(code: String) {
         if let result = flResult {
+            print("hello world")
             result(code)
         }
     }
@@ -13,6 +14,7 @@ public class EasyPeasyPlugin: NSObject, FlutterPlugin, HelloDelegate {
     
     public func onError(exception: String) {
         if let result = flResult {
+            print("nma gap nma nma gap")
             result(exception)
         }
     }
